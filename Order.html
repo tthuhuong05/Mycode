@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Staff</title>
+    <style>
+        /* Tổng quan về giao diện */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+background-image: url(https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/461771621_508807431914668_6733633856424033880_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9Nclgz-OSkMQ7kNvgE085yY&_nc_oc=AdjCgLm2xO1fZDwZiHsTAtPN_052XDRGVzxj69nlFaw7vcwAVQMJm4AQTj8CTQ0MCW8&_nc_zt=23&_nc_ht=scontent.fhan4-3.fna&_nc_gid=AL83o94EaYorM_sk2ZomYPL&oh=00_AYD9xqK92hmzMh6xuiuFSkIMWX-NQSEnH1SQF_bOe7yBbQ&oe=6767488A); /* Đường dẫn hình ảnh */
+  background-size: cover; /* Hình ảnh phủ toàn bộ header */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  background-position: center; /* Căn giữa hình ảnh */
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Màu xanh lá */
+            color: white;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .search input {
+            padding: 5px;
+            width: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Tiêu đề chào mừng */
+        .welcome-title {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Container chính */
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .menu-item img {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần header -->
+    <header>
+        <div class="logo">Cam Bo Garden</div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <!-- Tiêu đề chào mừng -->
+    <div class="welcome-title">
+        Welcome to Cam Bo Coffee Management
+    </div>
+
+    <!-- Phần giao diện chính -->
+    <div class="main-container">
+        <div class="menu-box">
+            <!-- Các mục chức năng -->
+            <div class="menu-item">
+                <img src="https://img.icons8.com/ios/50/home--v1.png" alt="Home">
+                Home Page
+            </div>
+            <div class="menu-item">
+                <img src="https://img.icons8.com/ios/50/attendance-mark.png" alt="Attendance">
+                Time Attendance
+            </div>
+            <div class="menu-item">
+                <img src="https://img.icons8.com/ios/50/report-card.png" alt="Sales Report">
+                Sales Report
+            </div>
+            <div class="menu-item">
+                <img src="https://img.icons8.com/ios/50/shopping-cart.png" alt="Orders">
+                Orders
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\FPTSHOP\Downloads\warehouse-1024.webp" alt="Inventory">
+                Inventory
+            </div>
+        </div>
+    </div>
+</body>
+</html>
